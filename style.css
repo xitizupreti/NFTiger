@@ -1,0 +1,345 @@
+html {
+  position: relative;
+  height: 1307px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/Rectangle12.png);
+}
+
+.head {
+  position: absolute;
+  width: 1217px;
+  height: 100px;
+  left: 100px;
+  top: 20px;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 100px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.home {
+  display: inline;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  left: 520px;
+  top: 55px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #ffffff;
+}
+.col {
+  display: inline;
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  left: 621px;
+  top: 55px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.mint {
+  display: inline;
+  position: absolute;
+  width: 45px;
+  height: 30px;
+  left: 774px;
+  top: 55px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.nft {
+  display: inline;
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 858px;
+  top: 55px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.walout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+  width: 202px;
+  height: 64px;
+  left: 1135px;
+  top: 35px;
+}
+#walout2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: absolute;
+  width: 202px;
+  height: 64px;
+  left: 230px;
+  top: 456px;
+}
+.wal {
+  position: static;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #ffffff;
+}
+#wal2 {
+  position: static;
+  width: 165px;
+  height: 44px;
+  left: 18.5px;
+  top: 10px;
+
+  /* pp2 purple */
+
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+#unless {
+  position: absolute;
+  width: 526px;
+  height: 54px;
+  left: 249px;
+  top: 272px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 112%;
+  /* or 27px */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+#price {
+  position: absolute;
+  width: 157px;
+  height: 48px;
+  left: 249px;
+  top: 347px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+#pr {
+  position: absolute;
+  width: 123px;
+  height: 54px;
+  left: 249px;
+  top: 381px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  background: linear-gradient(180deg, #6e1fe6 43.23%, #bfc6ce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+#tiger {
+  position: absolute;
+  width: 300px;
+  height: 378px;
+  left: 910px;
+  top: 207px;
+}
+#imgg {
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 910px;
+  top: 207px;
+
+  background: url(IMG_6099.jpg), #c4c4c4;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#min {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: absolute;
+  left: 910px;
+  top: 527px;
+}
+#tex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+
+  position: static;
+  width: 276px;
+  height: 38px;
+  left: -40.5px;
+  top: 10px;
+
+  /* pp2 purple */
+
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#mtex {
+  position: static;
+  width: 236px;
+  height: 18px;
+  left: 20px;
+  top: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 112%;
+  /* identical to box height, or 18px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+#last {
+  position: absolute;
+  width: 1197px;
+  height: 402px;
+  left: 122px;
+  top: 785px;
+}
+#cont {
+  position: absolute;
+  width: 372px;
+  height: 182px;
+  left: 535px;
+}
+#t {
+  position: absolute;
+  left: -9px;
+  top: 170px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #ffffff;
+}
+#d {
+  position: absolute;
+  left: 220px;
+  top: 170px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #ffffff;
+}
+#line {
+  position: absolute;
+  width: 1197px;
+  top: 300px;
+  border: 1px solid #000000;
+}
+
+#whole {
+  position: absolute;
+  width: 412px;
+  height: 30px;
+  left: 480px;
+  top: 400px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
