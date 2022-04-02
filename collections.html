@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>NFTiger</title>
   </head>
   <body>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Outfit&family=Poppins");
       @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+      html {
+  position: relative;
+  height: 1307px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/Rectangle12.png);
+}
     </style>
     <header class="head">
       <div>
-        <img class="logo" src="images/Ellipse253.png" />
+        <img class="logo" src="./images/Ellipse253.png" />
         <ul>
-          <li class="home">Home</li>
-          <li class="col">Collections</li>
-          <li class="mint">Mint</li>
-          <li class="nft">NFT</li>
+          <a href="./index.html"><li class="home">Home</li></a>
+          <a href="./collections.html"><li class="col">Collections</li></a>
+          <a href="./mint.html"><li class="mint" >Mint</li></a>
+          <a><li class="nft" >NFT</li></a>
         </ul>
         <div class="walout">
           <button class="wal">Connect Wallet</button>
