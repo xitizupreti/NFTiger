@@ -676,3 +676,61 @@ order: 0;
 flex-grow: 0;
 margin: 0px 10px;
 }
+#upsell{
+  position: absolute;
+width: 1280px;
+height: 430px;
+left: 80px;
+top: 1979px;
+}
+
+#rb{
+  position: absolute;
+  width: 1280px;
+  height: 320px;
+  top: 110px;
+left: 80px;
+right: 80px;
+background: #C4C4C4;
+border-radius: 16px;
+}
+ #e4{
+  position: absolute;
+  height: 320px;
+  left: 0px;
+  right: 817px;
+  top: 0px;
+  /* Pink */
+  background: #FF3998;
+  filter: blur(292px);
+}
+
+#e5{
+  position: absolute;
+height: 993px;
+left: 374px;
+right: 73px;
+top: -115px;
+background: linear-gradient(0deg, #61D4FF, #61D4FF), #856A5B;
+filter: blur(292px);
+}
+#e6{
+  position: absolute;
+height: 993px;
+left: -22px;
+right: 469px;
+top: -248px;
+/* Red */
+background: #FF3939;
+filter: blur(292px);
+}
+#e7{
+  position: absolute;
+height: 491px;
+left: 988px;
+right: -39px;
+top: -101px;
+/* Green */
+background: #39FFA0;
+filter: blur(292px);
+}
